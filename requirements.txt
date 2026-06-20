@@ -1,0 +1,15 @@
+langchain 
+wikipedia 
+langchain-community 
+langchain-openai
+langchain-anthropic
+langchain-mistralai
+python-dotenv
+pydantic
+duckduckgo-search
+ddgs
+arxiv
+reportlab
+matplotlib
+pdfkit
+Pillow
