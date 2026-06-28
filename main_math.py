@@ -8,7 +8,8 @@ def main():
     parser.add_argument("--topic", type=str, default="Polynomials", help="Topic of the questions")
     parser.add_argument("--difficulty", type=str, default="Medium", choices=["Easy", "Medium", "Hard", "Harder", "Olympiad"], help="Difficulty level")
     parser.add_argument("--year_level", type=str, default="Year 10", help="Target student year/grade level")
-    parser.add_argument("--output", type=str, default="math_paper.pdf", help="Output filename")
+    parser.add_argument("--output", type=str, default="math_paper.pdf", help="Output filename that is unique to the topic and difficulty (e.g., 'year10_polynomials_medium.pdf')")
+    
     
     args = parser.parse_args()
     
