@@ -1,9 +1,36 @@
-.venv/
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# Generated outputs
+output/
 *.pdf
+*.png
 *.tex
 *.aux
 *.log
-*.png
-*.json
-.env
+
+# Debug artifacts
+last_graph_payload.json
+last_pdf_payload.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
