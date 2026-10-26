@@ -134,9 +134,7 @@ Deploy this application directly on Render with a single click:
 1. Fork or push this repository to GitHub.
 2. Sign in to [Render](https://render.com/) and click **New +** > **Blueprint**.
 3. Connect your repository. Render will automatically detect [`render.yaml`](render.yaml):
-   - **Environment**: Python 3.11
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `gunicorn app:app --bind 0.0.0.0:$PORT --timeout 300`
+  - Render builds the [`Dockerfile`](Dockerfile), which installs Python 3.11 and TeX Live for math worksheet PDFs.
 4. Set the `MISTRALAI_API_KEY` in the Render environment variables dashboard.
 5. Click **Apply** to deploy.
 

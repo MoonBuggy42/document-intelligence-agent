@@ -1,0 +1,12 @@
+.git
+.env
+.env.*
+venv/
+.venv/
+__pycache__/
+output/
+wkhtmltopdf_bin/
+*.pdf
+*.png
+*.aux
+*.log
